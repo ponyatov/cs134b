@@ -19,8 +19,8 @@
  (name cs134b)
  (synopsis "OCaml workout")
  (description "OCaml workout with embedded compiler design")
- (depends ocaml)
+ (depends ocaml utop dune ocamlformat ocaml-lsp-server ppx_string menhir)
  (tags
-  ("add topics" "to describe" your project)))
+  ("OCaml" "code generation" compiler translator)))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html

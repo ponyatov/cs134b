@@ -20,4 +20,7 @@ sync: doc
 .PHONY: ai tmp/$(APP).ai.md
 ai: tmp/$(APP).ai.md
 tmp/$(APP).ai.md: doc
-	cat doc/ai.md README.md doc/$(APP)/$(APP).md > $@ ; touch $@
+	cat doc/ai.md README.md doc/$(APP)/$(APP).md \
+		doc/$(APP)/Пра* doc/$(APP)/Обзор* doc/$(APP)/Функциональные* \
+		doc/$(APP)/Простые* doc/$(APP)/Базовые* \
+	> $@ ; touch $@

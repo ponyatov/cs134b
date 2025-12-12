@@ -41,6 +41,7 @@ git push -uv gh `whoami`
 7. `lib/dune`
 	- каталог для библиотек и исходного кода на OCaml
 		![[cs134b/dune]]
+
 8. далее мы будем генерировать исходный код на [[Cpp/C++|C++]]:
 	```
 	mkdir {lib,inc,src}
@@ -49,6 +50,7 @@ git push -uv gh `whoami`
 	touch CMakePresets.json
 	touch lib/cs134b.ini inc/cs134b.hpp src/cs134b.cpp
 	```
+
 9. проект управляется через использование GNU make
 	- Makefile
 		![[cs134b/Makefile]]
