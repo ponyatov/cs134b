@@ -1,4 +1,9 @@
-# cs134b
+# `cs134b` 0.0.1`
+## OCaml workout
+
+(c) Dmitry Ponyatov <<dponyatov@gmail.com>> 2025 MIT
+
+github: 
 
 ***
 ##  С чего начать?
