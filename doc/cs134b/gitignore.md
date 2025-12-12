@@ -1,0 +1,11 @@
+```
+*~
+*.swp
+*.log
+*.exe
+*.o
+*.obj
+/_build/
+/target/
+!.gitignore
+```
