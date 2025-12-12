@@ -1,3 +1,13 @@
+*~
+*.swp
+*.log
+*.exe
+*.o
+*.obj
+/_build/
+/target/
+!.gitignore
+
 *.annot
 *.cmo
 *.cma
@@ -27,3 +37,4 @@ setup.log
 
 # Local OPAM switch
 _opam/
+
