@@ -1,0 +1,4 @@
+(executable
+ (public_name cs134b)
+ (name main)
+ (libraries cs134b))
