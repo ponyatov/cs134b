@@ -3,7 +3,7 @@
 
 (c) Dmitry Ponyatov <<dponyatov@gmail.com>> 2025 MIT
 
-github: 
+github: https://github.com/ponyatov/cs134b
 
 ***
 ##  С чего начать?
