@@ -1,0 +1,1 @@
+# Closed union types

@@ -1,0 +1,1 @@
+# Formatted input with Scanf

@@ -1,0 +1,1 @@
+# Instantiating a polymorphic class

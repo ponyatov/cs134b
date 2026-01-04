@@ -1,0 +1,1 @@
+# Coercing polymorphic classes
