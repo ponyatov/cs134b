@@ -1,3 +1,4 @@
 #use "topfind";;
 #require "unix";;
-(* #require "ppx_string";; *)
+open Unix;;
+#require "ppx_string";;
