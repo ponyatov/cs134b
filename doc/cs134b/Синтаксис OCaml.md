@@ -1,2 +1,0 @@
-# Синтаксис [[OCaml/OCaml|OCaml]]
-

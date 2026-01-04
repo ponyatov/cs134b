@@ -1,5 +1,0 @@
-```ocaml
-#use "topfind";;
-#require "unix";;
-(* #require "ppx_string";; *)
-```
