@@ -1,9 +1,9 @@
-(executable
- (public_name cs134b)
- (name main)
- (modules main)
- (libraries cs134b))
-
 (library
- (modules empty)
- (name cs134b))
+  (name cs134b)
+  (modules cs134b)
+  (libraries ppx_string))
+
+(test
+ (modules test)
+ (libraries cs134b)
+ (name test))
