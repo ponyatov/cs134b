@@ -1,7 +1,6 @@
 .PHONY: doc
 doc:
-	rm -rf doc/$(APP)/
-	rsync -r $(HOME)/metadoc/$(APP)/ doc/$(APP)/
+	rm -rf doc/$(APP)/ ; rsync -r $(HOME)/metadoc/$(APP)/ doc/$(APP)/
 	git add $@
 
 .PHONY: doxy
