@@ -20,16 +20,11 @@
         // parser
         "daohong-emilio.yash",
         "rreverser.ragel",
-        // "serghei-iakovlev.language-lemon",
-        // "fudgepops.kaitai-struct-vscode",
         // embedded
         "dan-c-underwood.arm",
         "zixuanwang.linkerscript",
         "ms-vscode.vscode-serial-monitor",
         // "espressif.esp-idf-extension",
-        // "basdp.language-gas-x86",
-        // "mechatroner.rainbow-csv",
-        // "ms-vscode.hexeditor",
         // Python
         "ms-python.python",
         "ms-python.autopep8",
@@ -40,8 +35,5 @@
         "vadimcn.vscode-lldb",
         // OCaml
         "ocamllabs.ocaml-platform",
-        // LLVM
-        "rreverser.llvm",
-        "revng.llvm-ir",
     ]
 }
