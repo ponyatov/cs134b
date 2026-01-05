@@ -8,7 +8,7 @@ Sys.command("code lib/legas.ml")
 let app = Sys.getcwd () |> String.split_on_char '/' |> List.rev |> List.hd
 let title = "Introduction to Objective Caml"
 let about = "
-(c) Jason Hickey
+(c) Jason Hickey <jyh@cs.caltech.edu>
 "
 let user = "dponyatov"
 let ruser = "dimon"

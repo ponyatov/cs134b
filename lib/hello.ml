@@ -1,1 +1,3 @@
-let () = print_endline "Hello World!"
+open Cs134b
+
+let () = print_endline [%string "Hello, %{app}!"]

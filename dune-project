@@ -8,11 +8,10 @@
 (license             "MIT")
 (source              (github ponyatov/cs134b))
 (package
- (name                hello)
+ (name               hello)
  (allow_empty))
 (package
- (name                cs134b)
- (synopsis            "Introduction to Objective Caml")
- (description         "")
+ (name               cs134b)
+ (synopsis           "Introduction to Objective Caml")
  (allow_empty)
  (depends ocaml utop dune ocamlformat ocaml-lsp-server ppx_string menhir))
