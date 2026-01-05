@@ -56,3 +56,16 @@ lib/hello.cmo: OCaml bytecode object file (.cmo) (Version 036)
 lib/hello.cmx: OCaml native object file (.cmx) (Version 036)
 lib/hello.o:   ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
 ```
+
+## многофайловые проекты
+
+- Программы на OCaml часто состоят из нескольких исходных файлов
+- Порядок компиляции имеет значение
+- [[OCaml/dune|dune]] — современная, наиболее популярная система сборки для OCaml. Она автоматически определяет зависимости, порядок компиляции и предоставляет удобный workflow.
+
+```sh
+$ dune build
+```
+
+![[cs134b/dune]]
+![[cs134b/dune-project]]

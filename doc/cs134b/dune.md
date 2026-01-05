@@ -1,3 +1,4 @@
+```lisp
 (executable
  (name hello)
  (modules hello)
@@ -12,3 +13,4 @@
  (modules test)
  (libraries cs134b)
  (name test))
+```

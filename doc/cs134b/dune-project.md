@@ -1,3 +1,4 @@
+```lisp
 (lang dune           3.20)
 (name                cs134b)
 (generate_opam_files true)
@@ -16,3 +17,4 @@
  (description         "")
  (allow_empty)
  (depends ocaml utop dune ocamlformat ocaml-lsp-server ppx_string menhir))
+```
