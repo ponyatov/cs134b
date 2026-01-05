@@ -1,6 +1,6 @@
 # `utop`
 ## OCaml toplelvel (REPL)
-### Интерактивная среда (toplevel = REPL)
+### интерактивный интерпретатор (REPL=toplevel)
 
 Для быстрого тестирования кода и изучения языка существует интерактивная среда, или верхнеуровневый интерпретатор
 - `ocaml` из комплекта базового компилятора
@@ -18,3 +18,12 @@
 ```
 Hello World!
 ```
+
+интеграция с VSCode:
+- расширение  **OCaml Platform Extension**
+	- `opam install ocaml-lsp-server utop`
+	- "ocamllabs.ocaml-platform"
+	- opam switch (sandbox) выбирается внизу экрана 
+- `Ctrl+Enter` OCaml: Evaluate Selection
+	- выделенный код будет выполняться в REPL
+	- автоматически добавляется `;;`

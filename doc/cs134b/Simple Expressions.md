@@ -6,5 +6,5 @@
 2.3 [[cs134b/Operator precedences|Приоритет операторов]]
 2.4 [[cs134b/The OCaml type system|Система типов OCaml]]
 2.5 [[cs134b/Compiling your code|Компиляция кода]]
-2.6 [[cs134b/utop]]
+2.6 [[cs134b/utop|интерактивный интерпретатор (REPL=toplevel)]]
 2.7 Exercises

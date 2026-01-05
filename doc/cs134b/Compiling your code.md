@@ -14,7 +14,9 @@
 
 `lib/hello.ml`
 ```ocaml
-let () = print_endline "Hello World!"
+open Cs134b
+
+let () = print_endline [%string "Hello, %{app}!"]
 ```
 ```sh
 $ ocamlc   -o bin/hello.byte   lib/hello.ml
